@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --silver: #008080;
+            --gris-claro: #ffebcd;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        div{
+            border: 1px solid;
+            float: left;
+            height: 140px;
+            width: 140px;
+            margin: 10px 15px;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+            font-weight: bold;
+            word-wrap: break-word;
+        }
+
+        h2{
+            margin: 55px -30px 0 65px;
+            font-size: 22px;
+            width: 400px;
+            white-space: pre;
+            text-align: center;
+        }
+
+        
+
+        .contenedor {
+            background-color: white;
+            width: 600px;
+            border: none;
+        }
+
+        .toButtom {
+            background-image: linear-gradient(to bottom, var(--silver), var(--gris-claro));
+        }
+
+        .to45 {
+            background-image: linear-gradient(45deg, var(--silver), var(--gris-claro));
+        }
+
+        .to75 {
+            background-image: linear-gradient(75deg, var(--silver), var(--gris-claro));
+        }
+
+        .to180 {
+            background-image: linear-gradient(180deg, var(--silver), var(--gris-claro));
+        }
+
+        .to90 {
+            background-image: linear-gradient(90deg, var(--silver), var(--gris-claro));
+        }
+
+        .to0 {
+            background-image: linear-gradient(0deg, var(--silver), var(--gris-claro));
+        }
+
+        .to90_red_blue_yellow{
+            background-image: linear-gradient(90deg, red, blue, yellow);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Linear gradient</h2>
+    <div class="contenedor">
+        <div class="toButtom">to bottom</div>
+        <div class="to45">45º</div>
+        <div class="to75">75º</div>
+        <div class="to180">180º</div>
+        <div class="to90">90º</div>
+        <div class="to0">0º</div>
+        <div class="to90_red_blue_yellow">
+            90º Rojo, azul y amarillo
+        </div>
+        <div class=""></div>
+        <div class=""></div>
+    </div>
+</body>
+
+</html>
