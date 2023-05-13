@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* div{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+} */
+
+.corazon {
+    --color: red;
+    --escala: 1;
+    --desplazamiento: 200px;
+    height: 32px;
+    width: 32px;
+    background-color: var(--color);
+    box-shadow: 32px 0px 0px var(--color), 
+    64px 0px 0px black, 
+    32px 0px 0px var(--color), 
+    -32px 0px 0px black, 
+    0px -32px 0px black, 
+    32px -32px 0px black, 
+    96px -32px 0px black, 
+    128px -32px 0px black, 
+    160px 0px 0px black, 
+    160px 32px 0px black, 
+    -32px 32px 0px black, 
+    0px 64px 0px black, 
+    32px 96px 0px black, 
+    64px 128px 0px black, 
+    96px 96px 0px black, 
+    128px 64px 0px black, 
+    32px 32px 0px var(--color), 
+    0px 32px 0px var(--color), 
+    64px 32px 0px var(--color), 
+    96px 32px 0px var(--color), 
+    128px 32px 0px var(--color),
+     96px 0px 0px var(--color), 
+     128px 0px 0px var(--color), 
+     96px 64px 0px var(--color), 
+     64px 64px 0px var(--color), 
+     32px 64px 0px var(--color), 
+     64px 96px 0px var(--color);
+    margin-top: var(--desplazamiento) !important;
+    margin: 0 auto;
+    transition: all 3s;
+}
+
+.corazon:hover{
+    --color: blue;
+    --desplazamiento: 300px;
+    transform: scale(1.1);
+}
+
+.degradado {
+    background-image: linear-gradient(135deg, tomato, cyan);
+}
+
+.sombra {
+    box-shadow: 10px -5px 1px black;
+}
